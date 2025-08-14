@@ -36,6 +36,7 @@ Rails.application.configure do
   # since you don't have to restart the web server when you make code changes.
   config.enable_reloading = true
 
+ config.public_file_server.enabled = true
   # Do not eager load code on boot by default.
   config.eager_load = ENV["EAGER_LOAD"].present?
 
